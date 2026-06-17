@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 import { nav, identity } from "@/data/content";
 
 export default function Nav() {
@@ -12,9 +13,18 @@ export default function Nav() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a
           href="#accueil"
-          className="font-mono text-sm uppercase tracking-[0.18em] text-gold"
+          className="flex items-center gap-2 transition-opacity hover:opacity-80"
         >
-          {identity.brand}
+          <Image
+            src="/logo-creAitive.png"
+            alt="Logo CreAitive Studio"
+            width={40}
+            height={40}
+            className="h-10 w-auto"
+          />
+          <span className="hidden font-mono text-xs uppercase tracking-wider text-gold sm:inline">
+            {identity.brand}
+          </span>
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
