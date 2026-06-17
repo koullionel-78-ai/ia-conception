@@ -6,20 +6,20 @@
 
 export const identity = {
   name: "Ange Lionel Koulidiati",
-  brand: "IA Conception",
-  roles: ["Graphiste", "Développeur", "Créateur IA"],
+  brand: "CreAitive Studio",
+  roles: ["Graphiste", "Développeur", "Créateur de contenus"],
   tagline:
     "Je conçois des logos, des affiches, des vidéos et des sites web pour les entreprises et créateurs qui veulent une image forte — en combinant design graphique et intelligence artificielle.",
   location: "Ouagadougou, Burkina Faso",
 };
 
 export const contact = {
-  whatsappNumber: "22676625367", // format international sans le "+", sans espaces
+  whatsappNumber: "22676625367 / 22673020194", // format international sans le "+", sans espaces
   whatsappDisplay: "+226 76 62 53 67",
   instagramHandle: "@yeah_i_m_lionel",
   instagramUrl: "https://instagram.com/yeah_i_m_lionel",
   // Ajoute ton email ici si tu veux l'afficher, sinon laisse vide
-  email: "",
+  email: "koulidiatiangelionel@gmail.com",
 };
 
 export const nav = [
@@ -34,9 +34,9 @@ export const nav = [
 export const services = [
   {
     icon: "Sparkles",
-    title: "Logos générés par IA",
+    title: "Logos proffoessionels",
     description:
-      "Une identité visuelle unique, explorée à travers des dizaines de pistes IA puis affinée à la main pour qu'elle te ressemble vraiment.",
+      "Une identité visuelle unique, explorée à travers des dizaines de pistes nouvelles puis affinée à la main pour qu'elle te ressemble vraiment.",
     seed: 1,
   },
   {
@@ -48,9 +48,9 @@ export const services = [
   },
   {
     icon: "Clapperboard",
-    title: "Vidéos promotionnelles IA",
+    title: "Vidéos promotionnelles ",
     description:
-      "Des courtes vidéos générées et montées avec l'IA pour présenter un produit, un service ou un événement sans budget de tournage.",
+      "Des courtes vidéos générées et montées pour présenter un produit, un service ou un événement sans budget de tournage.",
     seed: 3,
   },
   {
@@ -75,9 +75,9 @@ export const skills = [
 
 export const about = {
   bio:
-    "Étudiant en classe préparatoire MPSI à l'École Polytechnique de Ouagadougou, je partage mon temps entre les mathématiques, le code et la création visuelle. IA Conception est née de cette double passion : utiliser la rigueur du développement et la puissance de l'IA générative pour produire des visuels que les méthodes classiques mettraient des heures à réaliser.",
+    "Étudiant à l'École Polytechnique de Ouagadougou, je partage mon temps entre les mathématiques, le code et la création visuelle. IA Conception est née de cette double passion : utiliser la rigueur du développement et la puissance de l'IA générative pour produire des visuels que les méthodes classiques mettraient des heures à réaliser.",
   facts: [
-    { label: "Formation", value: "MPSI — École Polytechnique de Ouagadougou" },
+    { label: "Formation", value: "MP — École Polytechnique de Ouagadougou" },
     { label: "Basé à", value: "Ouagadougou, Burkina Faso" },
     { label: "Disponibilité", value: "Projets freelance, à distance" },
   ],
@@ -100,7 +100,7 @@ export const projects = [
   },
   {
     title: "Vidéo promo — à venir",
-    category: "Vidéo IA",
+    category: "Vidéo ",
     description: "Ajoute ici une vidéo courte générée ou montée avec l'IA.",
     seed: 3,
   },
@@ -116,7 +116,7 @@ export const quoteOptions = {
   serviceTypes: [
     "Logo / identité visuelle",
     "Affiche publicitaire",
-    "Vidéo promotionnelle IA",
+    "Vidéo promotionnelle ",
     "Site web",
     "Autre",
   ],
