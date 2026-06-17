@@ -9,7 +9,7 @@ export const identity = {
   brand: "CreAitive Studio",
   roles: ["Graphiste", "Développeur", "Créateur de contenus"],
   tagline:
-    "Je conçois des logos, des affiches, des vidéos et des sites web pour les entreprises et créateurs qui veulent une image forte — en combinant design graphique et creativite.",
+    "Je conçois des logos, des affiches, des vidéos et des sites web pour les entreprises et créateurs qui veulent une image forte — en combinant design graphique et intelligence artificielle.",
   location: "Ouagadougou, Burkina Faso",
 };
 
@@ -34,7 +34,7 @@ export const nav = [
 export const services = [
   {
     icon: "Sparkles",
-    title: "Logos proffoessionels",
+    title: "Logos professionnels",
     description:
       "Une identité visuelle unique, explorée à travers des dizaines de pistes nouvelles puis affinée à la main pour qu'elle te ressemble vraiment.",
     seed: 1,
@@ -75,7 +75,7 @@ export const skills = [
 
 export const about = {
   bio:
-    "Étudiant à l'École Polytechnique de Ouagadougou, je partage mon temps entre les mathématiques, le code et la création visuelle. CreAItive Studio est née de cette double passion : utiliser la rigueur du développement et la puissance de la Creativite pour produire des visuels que les méthodes classiques mettraient des heures à réaliser.",
+    "Étudiant à l'École Polytechnique de Ouagadougou, je partage mon temps entre les mathématiques, le code et la création visuelle. IA Conception est née de cette double passion : utiliser la r[...]
   facts: [
     { label: "Formation", value: "MP — École Polytechnique de Ouagadougou" },
     { label: "Basé à", value: "Ouagadougou, Burkina Faso" },
@@ -87,9 +87,10 @@ export const about = {
 // (titre, description, et idéalement une image dans /public) dès que tu en as.
 export const projects = [
   {
-    title: "Identité visuelle — à venir",
-    category: "Logo & branding",
-    description: "Espace réservé pour ton premier projet client ou personnel.",
+    title: "Graphiste Professionnel",
+    category: "Affiche publicitaire",
+    description: "Affiche promotionnelle pour services de design graphique — Logo, affiche publicitaire et bannière.",
+    image: "/affiche-graphiste.jpg",
     seed: 1,
   },
   {
