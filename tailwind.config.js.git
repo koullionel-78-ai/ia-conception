@@ -49,3 +49,4 @@ module.exports = {
   },
   plugins: [],
 }
+git remote add origin https://github.com/koullionel-78-ai/Portfolio-1.git
