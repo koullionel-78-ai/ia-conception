@@ -1,0 +1,2 @@
+Mets ici tes images (logo, photo, captures de projets) quand tu en as.
+Tu pourras ensuite les référencer dans le code avec <img src="/nom-du-fichier.jpg" />.
