@@ -9,7 +9,7 @@ export const identity = {
   brand: "CreAitive Studio",
   roles: ["Graphiste", "Développeur", "Créateur de contenus"],
   tagline:
-    "Je conçois des logos, des affiches, des vidéos et des sites web pour les entreprises et créateurs qui veulent une image forte — en combinant design graphique et intelligence artificielle.",
+    "Je conçois des logos, des affiches, des vidéos et des sites web pour les entreprises et créateurs qui veulent une image forte — en combinant design graphique et intelligence artificielle[...]",
   location: "Ouagadougou, Burkina Faso",
 };
 
@@ -75,7 +75,7 @@ export const skills = [
 
 export const about = {
   bio:
-    "Étudiant à l'École Polytechnique de Ouagadougou, je partage mon temps entre les mathématiques, le code et la création visuelle. IA Conception est née de cette double passion : utiliser la r[...]
+    "Étudiant à l'École Polytechnique de Ouagadougou, je partage mon temps entre les mathématiques, le code et la création visuelle. IA Conception est née de cette double passion : utiliser [...]",
   facts: [
     { label: "Formation", value: "MP — École Polytechnique de Ouagadougou" },
     { label: "Basé à", value: "Ouagadougou, Burkina Faso" },
