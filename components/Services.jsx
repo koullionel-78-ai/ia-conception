@@ -28,7 +28,7 @@ export default function Services() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-80px" }}
                 transition={{ duration: 0.5, delay: i * 0.08 }}
-                className="group relative overflow-hidden rounded-2xl border border-ink-line bg-ink-soft p-8 transition-colors hover:border-clay/60"
+                className="group relative overflow-hidden rounded-2xl border border-ink-line bg-ink-soft p-8 transition-colors hover:border-gold/60"
               >
                 <WovenPattern
                   seed={service.seed}
@@ -36,7 +36,7 @@ export default function Services() {
                   cols={4}
                   className="absolute -right-6 -top-6 h-28 w-28 opacity-40 transition-opacity group-hover:opacity-70"
                 />
-                <Icon className="relative z-10 h-7 w-7 text-clay-soft" strokeWidth={1.5} />
+                <Icon className="relative z-10 h-7 w-7 text-gold" strokeWidth={1.5} />
                 <h3 className="relative z-10 mt-5 font-display text-xl font-semibold text-sand">
                   {service.title}
                 </h3>

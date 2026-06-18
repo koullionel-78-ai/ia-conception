@@ -15,7 +15,7 @@ function mulberry32(seed) {
   };
 }
 
-const PALETTE = ["#C1502E", "#5A6FAE", "#D9A33E", "#F3EAD9"];
+const PALETTE = ["#D4AF37", "#E5C158", "#F4D976", "#B8860B"];
 
 function buildCells(seed, rows, cols) {
   const rng = mulberry32(seed * 9301 + 49297);

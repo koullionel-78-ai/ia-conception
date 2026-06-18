@@ -42,7 +42,7 @@ export default function Projects() {
                 />
               </div>
               <div className="p-5">
-                <p className="font-mono text-[11px] uppercase tracking-wider text-clay-soft">
+                <p className="font-mono text-[11px] uppercase tracking-wider text-gold">
                   {project.category}
                 </p>
                 <h3 className="mt-2 font-display text-lg font-semibold text-sand">

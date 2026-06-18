@@ -9,18 +9,18 @@ html {
 }
 
 body {
-  background-color: #161210;
-  color: #F3EAD9;
+  background-color: #0A0806;
+  color: #F5F1E8;
 }
 
 ::selection {
-  background-color: #C1502E;
-  color: #F3EAD9;
+  background-color: #D4AF37;
+  color: #0A0806;
 }
 
 /* Visible keyboard focus everywhere, including custom components */
 :focus-visible {
-  outline: 2px solid #D9A33E;
+  outline: 2px solid #D4AF37;
   outline-offset: 3px;
   border-radius: 2px;
 }

@@ -62,18 +62,18 @@ export default function Contact() {
               href={`https://wa.me/${contact.whatsappNumber}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-3 font-mono text-sm text-sand-dim transition-colors hover:text-sand"
+              className="flex items-center gap-3 font-mono text-sm text-sand-dim transition-colors hover:text-gold"
             >
-              <MessageCircle className="h-5 w-5 text-clay-soft" />
+              <MessageCircle className="h-5 w-5 text-gold" />
               {contact.whatsappDisplay}
             </a>
             <a
               href={contact.instagramUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-3 font-mono text-sm text-sand-dim transition-colors hover:text-sand"
+              className="flex items-center gap-3 font-mono text-sm text-sand-dim transition-colors hover:text-gold"
             >
-              <Instagram className="h-5 w-5 text-clay-soft" />
+              <Instagram className="h-5 w-5 text-gold" />
               {contact.instagramHandle}
             </a>
           </div>
@@ -93,7 +93,7 @@ export default function Contact() {
               type="text"
               value={form.name}
               onChange={(e) => update("name", e.target.value)}
-              className="w-full rounded-lg border border-ink-line bg-ink-soft px-4 py-3 text-sand placeholder:text-sand-dim/60 focus:border-clay"
+              className="w-full rounded-lg border border-ink-line bg-ink-soft px-4 py-3 text-sand placeholder:text-sand-dim/60 focus:border-gold"
               placeholder="Ton nom"
             />
           </Field>
@@ -104,7 +104,7 @@ export default function Contact() {
               type="text"
               value={form.contactInfo}
               onChange={(e) => update("contactInfo", e.target.value)}
-              className="w-full rounded-lg border border-ink-line bg-ink-soft px-4 py-3 text-sand placeholder:text-sand-dim/60 focus:border-clay"
+              className="w-full rounded-lg border border-ink-line bg-ink-soft px-4 py-3 text-sand placeholder:text-sand-dim/60 focus:border-gold"
               placeholder="Comment te répondre ?"
             />
           </Field>
@@ -113,7 +113,7 @@ export default function Contact() {
             <select
               value={form.serviceType}
               onChange={(e) => update("serviceType", e.target.value)}
-              className="w-full rounded-lg border border-ink-line bg-ink-soft px-4 py-3 text-sand focus:border-clay"
+              className="w-full rounded-lg border border-ink-line bg-ink-soft px-4 py-3 text-sand focus:border-gold"
             >
               {quoteOptions.serviceTypes.map((option) => (
                 <option key={option} value={option}>
@@ -127,7 +127,7 @@ export default function Contact() {
             <select
               value={form.budget}
               onChange={(e) => update("budget", e.target.value)}
-              className="w-full rounded-lg border border-ink-line bg-ink-soft px-4 py-3 text-sand focus:border-clay"
+              className="w-full rounded-lg border border-ink-line bg-ink-soft px-4 py-3 text-sand focus:border-gold"
             >
               {quoteOptions.budgets.map((option) => (
                 <option key={option} value={option}>
@@ -142,14 +142,14 @@ export default function Contact() {
               rows={4}
               value={form.message}
               onChange={(e) => update("message", e.target.value)}
-              className="w-full resize-none rounded-lg border border-ink-line bg-ink-soft px-4 py-3 text-sand placeholder:text-sand-dim/60 focus:border-clay"
+              className="w-full resize-none rounded-lg border border-ink-line bg-ink-soft px-4 py-3 text-sand placeholder:text-sand-dim/60 focus:border-gold"
               placeholder="Décris ton projet en quelques lignes..."
             />
           </Field>
 
           <button
             type="submit"
-            className="mt-2 flex items-center justify-center gap-2 rounded-full bg-clay px-6 py-3 font-mono text-xs uppercase tracking-wider text-sand transition-colors hover:bg-clay-soft"
+            className="mt-2 flex items-center justify-center gap-2 rounded-full bg-gold px-6 py-3 font-mono text-xs uppercase tracking-wider text-ink transition-colors hover:bg-gold-soft"
           >
             Envoyer via WhatsApp
             <Send className="h-4 w-4" />

@@ -30,7 +30,7 @@ export default function Hero() {
             <span key={role} className="flex items-center gap-3">
               {role}
               {i < identity.roles.length - 1 && (
-                <span className="text-clay-soft">•</span>
+                <span className="text-gold">•</span>
               )}
             </span>
           ))}
@@ -43,7 +43,7 @@ export default function Hero() {
         <div className="mt-10 flex flex-wrap gap-4">
           <a
             href="#services"
-            className="rounded-full bg-clay px-7 py-3 font-mono text-xs uppercase tracking-wider text-sand transition-colors hover:bg-clay-soft"
+            className="rounded-full bg-gold px-7 py-3 font-mono text-xs uppercase tracking-wider text-ink transition-colors hover:bg-gold-soft"
           >
             Voir mes services
           </a>

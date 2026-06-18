@@ -12,7 +12,7 @@ export default function SkillsMarquee() {
             className="flex items-center gap-10 font-mono text-sm uppercase tracking-wider text-sand-dim"
           >
             {skill}
-            <span className="text-clay">✦</span>
+            <span className="text-gold">✦</span>
           </span>
         ))}
       </div>

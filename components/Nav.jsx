@@ -32,7 +32,7 @@ export default function Nav() {
             <a
               key={item.href}
               href={item.href}
-              className="font-mono text-xs uppercase tracking-wider text-sand-dim transition-colors hover:text-sand"
+              className="font-mono text-xs uppercase tracking-wider text-sand-dim transition-colors hover:text-gold"
             >
               {item.label}
             </a>
@@ -41,7 +41,7 @@ export default function Nav() {
 
         <a
           href="#devis"
-          className="hidden rounded-full bg-clay px-5 py-2 font-mono text-xs uppercase tracking-wider text-sand transition-colors hover:bg-clay-soft md:inline-block"
+          className="hidden rounded-full bg-gold px-5 py-2 font-mono text-xs uppercase tracking-wider text-ink transition-colors hover:bg-gold-soft md:inline-block"
         >
           Demander un devis
         </a>
@@ -62,7 +62,7 @@ export default function Nav() {
               key={item.href}
               href={item.href}
               onClick={() => setOpen(false)}
-              className="py-2 font-mono text-sm uppercase tracking-wider text-sand-dim transition-colors hover:text-sand"
+              className="py-2 font-mono text-sm uppercase tracking-wider text-sand-dim transition-colors hover:text-gold"
             >
               {item.label}
             </a>
@@ -70,7 +70,7 @@ export default function Nav() {
           <a
             href="#devis"
             onClick={() => setOpen(false)}
-            className="mt-2 rounded-full bg-clay px-5 py-2 text-center font-mono text-xs uppercase tracking-wider text-sand"
+            className="mt-2 rounded-full bg-gold px-5 py-2 text-center font-mono text-xs uppercase tracking-wider text-ink"
           >
             Demander un devis
           </a>
