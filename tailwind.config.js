@@ -7,16 +7,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        ink: '#161210',
-        'ink-soft': '#221C18',
-        'ink-line': '#3A3026',
-        clay: '#C1502E',
-        'clay-soft': '#E07B52',
-        indigo: '#2B3A67',
-        'indigo-soft': '#5A6FAE',
-        gold: '#D9A33E',
-        sand: '#F3EAD9',
-        'sand-dim': '#C9BBA4',
+        ink: '#0A0806',
+        'ink-soft': '#1A1410',
+        'ink-line': '#2D251A',
+        gold: '#D4AF37',
+        'gold-soft': '#E5C158',
+        'gold-light': '#F4D976',
+        'gold-dark': '#B8860B',
+        black: '#000000',
+        'black-soft': '#1A1410',
+        sand: '#F5F1E8',
+        'sand-dim': '#D4CCBE',
       },
       fontFamily: {
         display: ['Fraunces', 'Georgia', 'serif'],
