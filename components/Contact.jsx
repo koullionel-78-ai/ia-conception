@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { MessageCircle, Instagram, Send } from "lucide-react";
+import { MessageCircle, Instagram, Mail, Send } from "lucide-react";
 import { contact, quoteOptions } from "@/data/content";
 
 const initialForm = {
@@ -58,16 +58,23 @@ export default function Contact() {
           </p>
 
           <div className="mt-8 flex flex-col gap-4">
-            <a
-              href={`https://wa.me/${contact.whatsappNumber}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-3 font-mono text-sm text-sand-dim transition-colors hover:text-gold"
-            >
-              <MessageCircle className="h-5 w-5 text-gold" />
-              {contact.whatsappDisplay}
-            </a>
-            <a
+            <div className="flex flex-col gap-1">
+              
+                href={`https://wa.me/${contact.whatsappNumber}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 font-mono text-sm text-sand-dim transition-colors hover:text-gold"
+              >
+                <MessageCircle className="h-5 w-5 text-gold" />
+                {contact.whatsappDisplay}
+              </a>
+              {contact.whatsappAltDisplay && (
+                <span className="pl-8 font-mono text-xs text-sand-dim/70">
+                  ou {contact.whatsappAltDisplay}
+                </span>
+              )}
+            </div>
+            
               href={contact.instagramUrl}
               target="_blank"
               rel="noopener noreferrer"
@@ -76,6 +83,15 @@ export default function Contact() {
               <Instagram className="h-5 w-5 text-gold" />
               {contact.instagramHandle}
             </a>
+            {contact.email && (
+              
+                href={`mailto:${contact.email}`}
+                className="flex items-center gap-3 font-mono text-sm text-sand-dim transition-colors hover:text-gold"
+              >
+                <Mail className="h-5 w-5 text-gold" />
+                {contact.email}
+              </a>
+            )}
           </div>
         </motion.div>
 
