@@ -59,7 +59,7 @@ export default function Contact() {
 
           <div className="mt-8 flex flex-col gap-4">
             <div className="flex flex-col gap-1">
-              
+              <a
                 href={`https://wa.me/${contact.whatsappNumber}`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -74,7 +74,7 @@ export default function Contact() {
                 </span>
               )}
             </div>
-            
+            <a
               href={contact.instagramUrl}
               target="_blank"
               rel="noopener noreferrer"
@@ -84,7 +84,7 @@ export default function Contact() {
               {contact.instagramHandle}
             </a>
             {contact.email && (
-              
+              <a
                 href={`mailto:${contact.email}`}
                 className="flex items-center gap-3 font-mono text-sm text-sand-dim transition-colors hover:text-gold"
               >
