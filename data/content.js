@@ -14,8 +14,9 @@ export const identity = {
 };
 
 export const contact = {
-  whatsappNumber: "22676625367 / 22673020194", // format international sans le "+", sans espaces
+  whatsappNumber: "22676625367", // format international sans le "+", sans espaces
   whatsappDisplay: "+226 76 62 53 67",
+  whatsappAltDisplay: "+226 73 02 01 94", // second numéro, affiché mais non cliquable (wa.me n'accepte qu'un seul numéro)
   instagramHandle: "@yeah_i_m_lionel",
   instagramUrl: "https://instagram.com/yeah_i_m_lionel",
   // Ajoute ton email ici si tu veux l'afficher, sinon laisse vide
@@ -48,7 +49,7 @@ export const services = [
   },
   {
     icon: "Clapperboard",
-    title: "Vidéos promotionnelles ",
+    title: "Vidéos promotionnelles",
     description:
       "Des courtes vidéos générées et montées pour présenter un produit, un service ou un événement sans budget de tournage.",
     seed: 3,
@@ -101,7 +102,7 @@ export const projects = [
   },
   {
     title: "Vidéo promo — à venir",
-    category: "Vidéo ",
+    category: "Vidéo",
     description: "Ajoute ici une vidéo courte générée ou montée avec l'IA.",
     seed: 3,
   },
@@ -117,7 +118,7 @@ export const quoteOptions = {
   serviceTypes: [
     "Logo / identité visuelle",
     "Affiche publicitaire",
-    "Vidéo promotionnelle ",
+    "Vidéo promotionnelle",
     "Site web",
     "Autre",
   ],
